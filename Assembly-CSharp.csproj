@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Prefap/MoveLeft.cs" />
+     <Compile Include="Assets/Script/RedBird.cs" />
      <Compile Include="Assets/Prefap/RedBird.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/2020.3.27f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
