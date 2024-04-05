@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1331
     height: 1301
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -71,7 +71,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 63
+  controlID: 44
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,8 +117,8 @@ MonoBehaviour:
     y: 0
     width: 314
     height: 932
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 19
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 65
+  controlID: 20
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -415,9 +415,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 203e0000
-    m_LastClickedID: 15904
-    m_ExpandedIDs: 00000000103e0000123e000000ca9a3b
+    m_SelectedIDs: 723e0000
+    m_LastClickedID: 15986
+    m_ExpandedIDs: 00000000683e00006a3e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -445,7 +445,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000103e0000123e0000
+    m_ExpandedIDs: 00000000683e00006a3e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -566,20 +566,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e8e9ffff
-      m_LastClickedID: -5656
-      m_ExpandedIDs: 72fbffff
+      m_SelectedIDs: 723d0000
+      m_LastClickedID: 15730
+      m_ExpandedIDs: 70fbffff72fbffff723d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Trees
-        m_OriginalName: Trees
+        m_Name: RedBird
+        m_OriginalName: RedBird
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -2408
+        m_UserData: 15786
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -628,9 +628,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.2223089, y: 0.7036386, z: -8407.017}
+    m_Target: {x: -0.62859017, y: 0.9195033, z: -341.06015}
     speed: 2
-    m_Value: {x: -3.2223089, y: 0.7036386, z: -8407.017}
+    m_Value: {x: -0.62206256, y: 0.9158145, z: -341.0602}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -681,9 +681,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.556937
+    m_Target: 8.805429
     speed: 2
-    m_Value: 6.556937
+    m_Value: 8.812038
   m_Ortho:
     m_Target: 1
     speed: 2
