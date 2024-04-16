@@ -10,7 +10,7 @@ public class Spawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("spawnPipes", 2.0f, 5.0f);
+        InvokeRepeating("SpawnPipes", 2.0f, 5.0f);
     }
 
     // Update is called once per frame

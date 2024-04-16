@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class RedBird : MonoBehaviour
 {
-    
+    int score = 0;
+    public Text scoreUI;
     Rigidbody2D bird;
     public float jump;
     // Start is called before the first frame update
@@ -23,4 +26,15 @@ public class RedBird : MonoBehaviour
 
         }
     }
+    void OnTriggerEnter2D(Collider2D other)
+   {
+        if(other.gameObject.CompareTag("Point"))
+        {
+            score = score + 1;
+
+         scoreUI.text = score.ToString();
+        }
+   }
 }
+
+
