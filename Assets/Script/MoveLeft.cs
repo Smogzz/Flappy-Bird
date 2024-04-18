@@ -5,19 +5,20 @@ using UnityEngine;
 public class MoveLeft : MonoBehaviour
 {
     public float speed;
+    RedBird birdScript;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        
+       birdScript = GameObject.Find("RedBird").GetComponent<RedBird>(); 
     }
 
     // Update is called once per frame
     void Update()
     {
 
-       transform.Translate(Vector2.left * Time.deltaTime * speed);
-
-   
-   
+       if(birdScript.isAlive == true) 
+       {
+            transform.Translate(Vector2.left * Time.deltaTime * speed);
+       }
     }
 }

@@ -11,15 +11,17 @@ public class RedBird : MonoBehaviour
     Rigidbody2D bird;
     public float jump;
     // Start is called before the first frame update
+    public bool isAlive;
     void Start()
     {
         bird = GetComponent<Rigidbody2D>();
+        isAlive = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && isAlive)
         {
             
             bird.AddForce(new Vector2(0,1) * jump);
@@ -35,6 +37,13 @@ public class RedBird : MonoBehaviour
          scoreUI.text = score.ToString();
         }
    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        isAlive = false;
+    }
+
+
 }
+
 
 
