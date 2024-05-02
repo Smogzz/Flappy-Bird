@@ -11,7 +11,7 @@ public class Spawn : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        InvokeRepeating("SpawnPipes", 2.0f, 5.0f);
+        InvokeRepeating("SpawnPipes", 2.0f, 3.0f);
         birdScript = GameObject.Find("RedBird").GetComponent<RedBird>();
     }
 
